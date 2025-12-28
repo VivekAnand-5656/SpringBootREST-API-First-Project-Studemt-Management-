@@ -1,8 +1,9 @@
 package com.example.RESTAPILearning.DTO;
 
-import lombok.Data;
+import lombok.*;
 
 @Data
+@NoArgsConstructor
 public class StudentDTO {
     private long id;
     private String name;
